@@ -1,1 +1,172 @@
-/* You can add global styles to this file, and also import other style files */
+body {
+  margin-top:30px;
+}
+
+
+.ng-scope{
+  padding-top: 0px;
+}
+
+
+/* Fonts */
+
+h1 {
+	font-family: 'Montserrat', sans-serif;
+    letter-spacing: 5px;
+    font-size: 6.5em;
+    font-weight: 700;
+    line-height: 1em;
+    text-transform: uppercase;
+    color: #F7882F;
+    margin: auto;
+    overflow: hidden;
+    margin-top: 60px;
+    width: 90%;
+}
+
+h2 {
+  font-family: 'Montserrat', sans-serif;
+    letter-spacing: 5px;
+    font-size: 4em;
+    font-weight: 700;
+    line-height: 1em;
+    text-transform: uppercase;
+    color: #F7C331;
+    margin-top: 0px;
+    margin: auto;
+    overflow: hidden;
+    padding-bottom: 30px;
+    padding-top: 30px;
+}
+
+h4{
+  font-family: 'Montserrat', sans-serif;
+  font-weight: 400 italic;
+  font-size: 1em;
+}
+
+.about-head {
+    font-family: 'Montserrat', sans-serif;
+    font-size: 1.5em;
+    font-weight: 400;
+    width: 85%;
+    margin: auto;
+    line-height: 1.5em;
+    margin-top: 25px;
+    color: white;
+}
+
+/*ADOPT PAGE*/
+
+.adopt-heading {
+  font-family: 'Montserrat', sans-serif;
+    letter-spacing: 2px;
+    font-size: 1.6em;
+    font-weight: 700;
+    line-height: 1em;
+    text-transform: uppercase;
+    color: #F7C331;
+    margin-top: 0px;
+    margin: auto;
+    overflow: hidden;
+    padding-top: 10px;
+    padding-bottom: 0px;
+}
+
+/* Navigation */
+.navbar-inverse .navbar-header .navbar-brand{
+  font-family: 'Rubik', sans-serif;
+  font-weight: 900;
+  font-size: 4em;
+  color: white;
+  letter-spacing: 5px;
+  padding-left: 40px;
+  padding-right: 0px;
+}
+
+.navbar-inverse {
+	background-color: #6B7A8F;
+  padding-top: 20px;
+  padding-bottom: 20px;
+}
+
+.navbar-inverse .navbar-nav>li>a {
+    color: white;
+}
+
+.navbar-right {
+   padding-right: 40px;
+}
+
+.nav li {
+	font-family: 'Montserrat', sans-serif;
+	font-weight: 700;
+	text-transform: uppercase;
+	font-size: 1.5em;
+	font-color: white;
+  letter-spacing: 1px;
+}
+
+
+/* HEADER */
+
+#background-image{
+	background-image: url(../img/foresterdog_header1.jpg);
+	display: block;
+	background-size: cover;
+  object-position: top;
+  padding-bottom: 160px;
+  padding-top: 80px;
+  margin-top: 0px;
+  width: 100%;
+}
+
+
+/* About Page */
+
+#color-blocks{
+  background-color: #F7C331;
+  padding-top:70px;
+  padding-bottom:70px;
+}
+
+#color-blocks p {
+  margin-top: 20px;
+}
+
+#color-blocks-newsletter {
+  background-color: #F7882F;
+  padding-top:50px;
+  padding-bottom:50px;
+}
+#color-blocks-newsletter h2 {
+  padding-top: 0px;
+  color: white;
+}
+
+/*BUTTON*/
+
+.btn-primary{
+  background-color: #F7882F;
+  border-color: none;
+}
+
+
+/*.thumbnail img { min-height:152px; height:152px; }*/
+
+.center-cropped {
+  object-fit: none; /* Do not scale the image */
+  object-position: 50% 50%; /* Center the image within the element */
+  max-height: 150px;
+  width: 280px;
+}
+
+.main-content{
+	margin-top: 60px;
+}
+
+/*FOOTER*/
+
+.footer p{
+  font-size: 1em;
+}
