@@ -1,14 +1,14 @@
 <!-- HEADER -->
 <nav class="navbar-fixed-top navbar-inverse">
 	<div class="navbar-header">
-		<a class="navbar-brand mybrand" href="/about">AARF KY</a><i class="fa fa-paw"  aria-hidden="true" style="font-size:3.4em; color:white;"></i>
+		<a class="navbar-brand mybrand" [routerLink]="['/about']">AARF KY</a><i class="fa fa-paw"  aria-hidden="true" style="font-size:3.4em; color:white;"></i>
 	</div>
 
 	<ul class="nav navbar-nav navbar-right">
-		<li><a href="/about">About</a></li>
-		<li><a href="/adopt">Adopt</a></li>
-		<li><a href="/events">Events</a></li>
-		<li><a href="/programs">Programs</a></li>
-		<!-- <li><a href="https://www.paypal.com/cgi-bin/webscr?cmd=_s-xclick&hosted_button_id=EXCVRZNCNSH98"target="_blank" = always new tab for each click target="tabName" = new tab>Donate</a></li> -->
+		<li><a [routerLink] = "['/about']" >Home</a></li>
+		<li><a [routerLink] = "['/adopt']" >Adopt</a></li>
+		<li><a [routerLink] = "['/events']">Events</a></li>
+		<li><a [routerLink] = "['/programs']">Programs</a></li>
+		<li><a href="https://www.paypal.com/cgi-bin/webscr?cmd=_s-xclick&hosted_button_id=EXCVRZNCNSH98 "target="_blank" >Donate</a></li>
 	</ul>
 </nav>

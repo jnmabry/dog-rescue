@@ -111,7 +111,7 @@ h4{
 /* HEADER */
 
 #background-image{
-	/*background-image: url(../img/foresterdog_header1.jpg);*/
+	background-image: url(../src/assets/img/foresterdog_header1.jpg);
 	display: block;
 	background-size: cover;
   object-position: top;
