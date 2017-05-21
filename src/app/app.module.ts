@@ -3,6 +3,7 @@ import { NgModule } from '@angular/core';
 import { FormsModule } from '@angular/forms';
 import { HttpModule } from '@angular/http';
 import { routing } from './app.routing';
+import {JsonpModule} from '@angular/http';
 
 import { AppComponent } from './app.component';
 import { HomeScreenComponent } from './home-screen/home-screen.component';
@@ -12,6 +13,9 @@ import { AboutComponent } from './about/about.component';
 import { AdoptComponent } from './adopt/adopt.component';
 import { EventsComponent } from './events/events.component';
 import { ProgramsComponent } from './programs/programs.component';
+
+// Service Files //
+import { PetsService } from './models/pets.service';
 
 @NgModule({
   declarations: [
@@ -28,9 +32,10 @@ import { ProgramsComponent } from './programs/programs.component';
     BrowserModule,
     FormsModule,
     HttpModule,
-    routing
+    routing,
+    JsonpModule
   ],
-  providers: [],
+  providers: [PetsService],
   bootstrap: [AppComponent]
 })
 export class AppModule { }
