@@ -1,5 +1,7 @@
 import { Component, OnInit } from '@angular/core';
 import { PetsService } from '../models/pets.service';
+import { Pet } from '../models/pets.model';
+
 
 @Component({
   selector: 'app-adopt',
@@ -8,15 +10,18 @@ import { PetsService } from '../models/pets.service';
 })
 export class AdoptComponent implements OnInit {
 
+  allPets: Pet[] = [];
+
   constructor(private _petsService: PetsService) { }
 
   ngOnInit() {
-    console.log(this.getAllPets());
+    this.getAllPets();
   }
 
   getAllPets() {
     this._petsService.getAllPets()
     .then( pets => {
+      this.allPets = pets;
       return pets;
     });
   }
